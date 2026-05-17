@@ -20,18 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module and_gate_tb();
-reg a,b;
-wire Y;
+module not_gate_tb();
+reg a;
+wire y;
 
-and_gate uut(a,b,Y);
+not_gate uut(a,y);
 
 initial begin
-    a=0;b=0;
-    #10 a=0;b=1;
-    #10 a=1;b=0;
-    #10 a=1;b=1;
+    a=0;
+    #10 a=1;
     #10;
     $finish;
-    end
-    endmodule
+end
+endmodule

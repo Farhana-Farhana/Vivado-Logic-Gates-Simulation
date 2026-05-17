@@ -24,5 +24,5 @@ module and_gate(
     input a,b,
     output Y
     );
-    assign Y=a^b;
+    assign Y=~(a|b);
 endmodule

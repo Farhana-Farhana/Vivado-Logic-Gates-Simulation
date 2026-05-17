@@ -1,4 +1,4 @@
-# Logic Gates using Vivado
+# Simulation of Logic Gates using Vivado
 
 This repository contains Verilog HDL implementations, testbenches, truth tables, and simulation waveforms for basic digital logic gates using Xilinx Vivado.
 

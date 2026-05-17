@@ -20,9 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module and_gate(
-    input a,b,
-    output Y
+module not_gate(
+    input a,
+    output y
     );
-    assign Y=a^b;
+
+assign y = ~a;
+
 endmodule

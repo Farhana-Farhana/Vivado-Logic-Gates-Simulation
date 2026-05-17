@@ -1,4 +1,4 @@
-# Verilog Logic Gates using Vivado
+# Logic Gates using Vivado
 
 This repository contains Verilog HDL implementations, testbenches, truth tables, and simulation waveforms for basic digital logic gates using Xilinx Vivado.
 
@@ -38,7 +38,7 @@ The OR gate produces HIGH output when at least one input is HIGH.
 | 1 | 1 | 1 |
 
 ## Waveform
-![OR Waveform](and.png)
+![OR Waveform](or.png)
 
 ---
 
